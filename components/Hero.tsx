@@ -6,18 +6,16 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[1000px] lg:min-h-[110vh] w-full flex flex-col justify-center overflow-hidden">
+    <section className="relative min-h-[1000px] lg:min-h-[110vh] w-full flex flex-col justify-center">
       {/* Background Image */}
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute inset-0 z-0">
         <Image
-          src="/Home/Hero.webp"
+          src="/home/hero.webp"
           alt="Jen Graham - High-Performance Sales Leadership"
           fill
           priority
-          className="object-cover object-top brightness-[0.85]"
+          className="object-cover object-top"
         />
-        {/* Subtle Gradient Overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
       </div>
 
       <div className="max-container relative z-10 w-full pt-32 pb-20">
