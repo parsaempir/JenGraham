@@ -39,7 +39,7 @@ const Hero = () => {
       <div className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce cursor-pointer">
         <div className="flex items-center gap-2 sm:gap-3 text-white/80 text-xs sm:text-sm font-medium whitespace-nowrap">
           <Image
-            src="/Home/arrow-down.svg"
+            src="/home/arrow-down.svg"
             alt="Scroll down"
             width={18}
             height={18}
