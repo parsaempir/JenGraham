@@ -5,13 +5,13 @@ import Image from "next/image";
 
 const QuizSection = () => {
   return (
-    <section className="w-full bg-white pt-6 lg:pt-10 overflow-hidden">
+    <section className="w-full bg-white pt-12 lg:pt-10 overflow-hidden">
       <div className="max-container px-6 lg:px-12 mx-auto">
-        <div className="flex flex-col lg:flex-row items-end justify-start gap-8 lg:gap-12">
+        <div className="flex flex-col lg:flex-row items-center lg:items-end justify-start gap-12 lg:gap-12">
           
-          {/* Left Side: Images */}
-          <div className="w-full lg:w-[70%] relative flex items-end justify-center lg:justify-start">
-            <div className="relative w-full max-w-[1100px] flex items-end -ml-4 lg:-ml-48">
+          {/* Left Side: Images - Hidden on mobile/tablet */}
+          <div className="w-full lg:w-[70%] relative hidden lg:flex items-end justify-center lg:justify-start">
+            <div className="relative w-full max-w-[1100px] flex items-end ml-0 lg:-ml-48">
               {/* Woman Image - Now on top */}
               <div className="relative z-20 w-[85%] -mb-1">
                 <Image
@@ -23,8 +23,8 @@ const QuizSection = () => {
                 />
               </div>
               
-              {/* Phone Mockup Image - Now underneath */}
-              <div className="absolute -right-8 lg:-right-16 bottom-[-5%] lg:bottom-[-2%] z-10 w-[65%] drop-shadow-2xl rotate-[8deg]">
+              {/* Phone Mockup Image - Now underneath, hidden on mobile/tablet */}
+              <div className="absolute -right-4 lg:-right-16 bottom-[-5%] lg:bottom-[-2%] z-10 w-[60%] sm:w-[65%] drop-shadow-2xl rotate-[8deg] hidden lg:block">
                 <Image
                   src="/home/goals-quiz..webp"
                   alt="Goals Quiz Mobile App"
@@ -38,7 +38,7 @@ const QuizSection = () => {
 
           {/* Right Side: Form */}
           <div className="w-full lg:w-[35%] max-w-[480px] pb-12 lg:pb-20">
-            <h2 className="font-serif text-[38px] lg:text-[50px] text-[#1E3147] leading-[1.1] mb-10">
+            <h2 className="font-serif text-[32px] sm:text-[40px] lg:text-[50px] text-[#1E3147] leading-[1.1] mb-8 lg:mb-10 text-center lg:text-left">
               Do your boundaries match your goals?
             </h2>
             

@@ -19,22 +19,22 @@ export default function Login() {
       </div>
 
 
-      <div className="flex-1 flex flex-col lg:flex-row items-start justify-between w-full min-w-[1440px] mx-auto px-8 md:px-16 lg:px-24 relative z-10 pt-12 pb-0 lg:pt-50">
+      <div className="flex-1 flex flex-col lg:flex-row items-start justify-between w-full lg:min-w-[1440px] mx-auto px-6 md:px-16 lg:px-24 relative z-10 pt-28 md:pt-32 lg:pt-50 pb-12 lg:pb-0">
 
         {/* Left Section */}
-        <div className="w-full lg:w-1/2 flex flex-col items-start text-left mb-12 lg:mb-0 lg:pr-12 relative min-h-[450px]">
+        <div className="w-full lg:w-1/2 flex flex-col items-start text-left mb-4 lg:mb-0 lg:pr-12 relative min-h-[auto] lg:min-h-[450px]">
           <div className="relative z-10">
-            <h1 className="text-3xl md:text-4xl whitespace-nowrap lg:text-[4rem] font-serif text-white leading-[1.1] mb-6 -ml-0.5 tracking-tight">
-              Make Power Moves.<br />
+            <h1 className="text-[32px] md:text-4xl lg:whitespace-nowrap lg:text-[4rem] font-serif text-white leading-[1.2] lg:leading-[1.1] mb-6 -ml-0.5 tracking-tight">
+              Make Power Moves.<br className="hidden lg:block" />
               <span className="italic font-light">Without burning out.</span>
             </h1>
 
-            <p className="text-[#94A3B8]  text-sm md:text-base mb-10 leading-relaxed ">
-              This is where high-performing women come to regain control of <br /> their time, energy, and decisions.<br /> Structure over chaos. Boundaries over burnout. <br />You don't need more motivation. You need a system.
+            <p className="text-[#94A3B8] text-sm md:text-base mb-10 leading-relaxed max-w-lg lg:max-w-none">
+              This is where high-performing women come to regain control of <br className="hidden lg:block" /> their time, energy, and decisions.<br className="hidden lg:block" /> Structure over chaos. Boundaries over burnout. <br className="hidden lg:block" />You don't need more motivation. You need a system.
             </p>
           </div>
 
-          <div className="absolute bottom-[-350px] right-[40%] w-full max-w-[500px] aspect-[4/5] lg:aspect-[3/4] z-0">
+          <div className="hidden lg:block absolute bottom-[-350px] right-[40%] w-full max-w-[500px] aspect-[4/5] lg:aspect-[3/4] z-0">
             <Image
               src="/Photoroom .webp"
               alt="Jen Graham"
@@ -46,8 +46,8 @@ export default function Login() {
         </div>
 
         {/* Right Section - Sign In Card */}
-        <div className="w-full lg:w-[45%] flex justify-center lg:justify-end">
-          <div className="bg-white rounded-[1.5rem] p-6 md:p-8 lg:p-10 w-full max-w-[500px] shadow-[0_20px_60px_rgba(0,0,0,0.15)]">
+        <div className="w-full lg:w-[45%] flex justify-center lg:justify-end relative z-20">
+          <div className="bg-white rounded-[1.5rem] p-7 md:p-8 lg:p-10 w-full max-w-[500px] shadow-[0_20px_60px_rgba(0,0,0,0.15)]">
             <div className="mb-6">
               <span className="text-[#4C5133] font-medium text-xs mb-1 block">Sign in</span>
               <h2 className="text-2xl md:text-3xl font-semibold text-black tracking-tight leading-tight">Welcome Back</h2>

@@ -20,15 +20,15 @@ const CalmLeadership = () => {
   ];
 
   return (
-    <section className="bg-[#F9F5F2] py-20 w-full">
+    <section className="bg-[#F9F5F2] py-16 sm:py-20 w-full">
       <div className="max-container">
         {/* Headline */}
-        <h2 className="font-serif text-5xl md:text-6xl text-[#000000] leading-[1.1] tracking-tight mb-14 max-w-2xl">
-          This is what calm <br /> leadership looks like.
+        <h2 className="font-serif text-[36px] sm:text-5xl lg:text-6xl text-[#000000] leading-[1.1] tracking-tight mb-10 lg:mb-14 max-w-2xl">
+          This is what calm <br className="hidden sm:block" /> leadership looks like.
         </h2>
 
         {/* Grid of Images */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-6">
           {leaders.map((leader, index) => (
             <div 
               key={index} 
@@ -52,8 +52,8 @@ const CalmLeadership = () => {
               />
 
               {/* Name at Bottom */}
-              <div className="absolute bottom-10 left-6 z-20">
-                <p className="font-serif text-3xl md:text-5xl text-white opacity-90">
+              <div className="absolute bottom-8 sm:bottom-10 left-6 z-20">
+                <p className="font-serif text-2xl sm:text-4xl lg:text-5xl text-white opacity-90">
                   {leader.name}
                 </p>
               </div>

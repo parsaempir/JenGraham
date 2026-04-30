@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const SilentSuccess = () => {
   return (
-    <section className="relative w-full min-h-[850px] flex flex-col justify-center overflow-hidden">
+    <section className="relative w-full min-h-[600px] sm:min-h-[750px] lg:min-h-[850px] flex flex-col justify-center overflow-hidden pb-16 lg:pb-0">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -24,27 +24,27 @@ const SilentSuccess = () => {
         />
       </div>
 
-      <div className="max-container relative z-20 w-full pt-80">
+      <div className="max-container relative z-20 w-full pt-32 sm:pt-52 lg:pt-80">
         <div className="">
           {/* Headline */}
-          <h2 className="font-serif text-5xl md:text-7xl text-white leading-[1.1] mb-8 tracking-tight">
-            The Silent Cost <br /> of Success
+          <h2 className="font-serif text-[40px] sm:text-5xl md:text-6xl lg:text-7xl text-white leading-[1.1] mb-8 tracking-tight">
+            The Silent Cost <br className="hidden sm:block" /> of Success
           </h2>
 
           {/* Body Text */}
           <div className="space-y-6 mb-10">
-            <p className="text-lg md:text-[18px] text-white/90 font-light leading-relaxed">
-              I&apos;ve led teams, hit numbers, raised kids, and burned out doing everything &ldquo;right.&rdquo; <br/>
+            <p className="text-base sm:text-lg lg:text-[18px] text-white/90 font-light leading-relaxed max-w-[90%] sm:max-w-none">
+              I&apos;ve led teams, hit numbers, raised kids, and burned out doing everything &ldquo;right.&rdquo; <br className="hidden sm:block" />
               What changed everything wasn&apos;t doing less. It was leading differently.
             </p>
-            <p className="text-lg md:text-[18px] text-white/90 font-light leading-relaxed">
-              Now I help women in sales and leadership build clarity, boundaries, and systems <br/>
+            <p className="text-base sm:text-lg lg:text-[18px] text-white/90 font-light leading-relaxed max-w-[90%] sm:max-w-none">
+              Now I help women in sales and leadership build clarity, boundaries, and systems <br className="hidden sm:block" />
               that actually hold under pressure.
             </p>
           </div>
 
           {/* CTA */}
-          <Button className="text-lg">Learn More</Button>
+          <Button className="text-base sm:text-lg">Learn More</Button>
         </div>
       </div>
     </section>

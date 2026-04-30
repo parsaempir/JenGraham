@@ -5,7 +5,7 @@ import React from "react";
 const ProblemReframe = () => {
   return (
     <section
-      className="relative w-full bg-[#F9F5F2] py-14 md:py-18 px-10 overflow-visible"
+      className="relative w-full bg-[#F9F5F2] py-12 sm:py-16 lg:py-18 px-6 sm:px-12 lg:px-10 overflow-visible"
       style={{
         backgroundImage: "url('/home/soft-lines.svg')",
         backgroundRepeat: 'no-repeat',
@@ -14,14 +14,14 @@ const ProblemReframe = () => {
       }}
     >
       <div className="max-container relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-strat">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-start">
 
           {/* Left Content */}
           <div className="flex flex-col max-w-[600px]">
-            <h2 className="font-serif text-4xl md:text-6xl text-[#000000] leading-tight mb-0">
+            <h2 className="font-serif text-[32px] sm:text-4xl md:text-5xl lg:text-6xl text-[#000000] leading-tight mb-0">
               &ldquo;You&rsquo;re Not Broken&rdquo;
             </h2>
-            <h3 className="font-serif text-4xl md:text-6xl text-[#000000] leading-tight mb-8">
+            <h3 className="font-serif text-[32px] sm:text-4xl md:text-5xl lg:text-6xl text-[#000000] leading-tight mb-8">
               Problem Reframe
             </h3>
 
@@ -39,10 +39,10 @@ const ProblemReframe = () => {
           </div>
 
           {/* Right Content / Quote */}
-          <div className="relative flex flex-col justify-end items-end min-h-[300px] md:min-h-[400px]">
-            <div className=" text-right pr-4 md:pr-0">
-              <p className="font-serif text-3xl md:text-5xl lg:text-6xl text-[#000000] leading-[1.1] tracking-tight">
-                Success without sacrifice is <br />
+          <div className="relative flex flex-col justify-center lg:justify-end items-center lg:items-end min-h-[200px] sm:min-h-[300px] lg:min-h-[400px]">
+            <div className="text-center lg:text-right w-full lg:pr-0">
+              <p className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-[#000000] leading-[1.1] tracking-tight">
+                Success without sacrifice is <br className="hidden sm:block" />
                 built, not balanced by luck.
               </p>
             </div>

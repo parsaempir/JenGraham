@@ -49,17 +49,17 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section className="w-full bg-[#4C5133] py-15">
-      <div className="max-container">
+    <section className="w-full bg-[#4C5133] py-12 lg:py-15 overflow-hidden">
+      <div className="max-container px-6 lg:px-12 mx-auto">
         {/* Heading */}
         <h2
-          className="font-serif text-[#F9F5F2] font-normal leading-[1.1] mb-20 md:mb-28"
-          style={{ fontSize: "clamp(28px, 3.8vw, 58px)" }}
+          className="font-serif text-[#F9F5F2] font-normal leading-[1.2] lg:leading-[1.1] mb-16 md:mb-28 text-center md:text-left"
+          style={{ fontSize: "clamp(30px, 8vw, 58px)" }}
         >
           This isn&apos;t about proving yourself through exhaustion.
-          <br />
+          <br className="hidden sm:block" />
           It&apos;s about operating like a promotion-ready sales leader
-          <br />
+          <br className="hidden sm:block" />
           at work and at home.
         </h2>
 
@@ -67,18 +67,17 @@ const HowItWorks = () => {
         <div className="relative">
 
           {/* Single continuous line — positioned at center of the circles */}
-          {/* Icon = 28px, gap mb-5 = 20px, circle half = 14px → top = 62px */}
           <div
             className="hidden md:block absolute h-[2px] z-0"
             style={{ top: "62px", left: "calc(12.5% - 28px)", right: "calc(12.5% - 28px)", backgroundColor: "#DBC7C4" }}
           />
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-0 relative z-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 sm:gap-16 md:gap-0 relative z-10">
             {steps.map((step) => (
               <div key={step.number} className="flex flex-col items-center text-center px-4">
 
                 {/* Icon — 28px tall */}
-                <div className="w-7 h-7 mb-5 relative opacity-75 flex-shrink-0">
+                <div className="w-8 h-8 md:w-7 md:h-7 mb-5 relative opacity-75 flex-shrink-0">
                   <Image
                     src={step.icon}
                     alt={step.title}
@@ -88,27 +87,27 @@ const HowItWorks = () => {
                 </div>
 
                 {/* Number Circle — sits on the line */}
-                <div className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 z-10 mb-5" style={{ backgroundColor: "#DBC7C4" }}>
-                  <span className="text-[#4C5133] text-xs font-medium">{step.number}</span>
+                <div className="w-8 h-8 md:w-7 md:h-7 rounded-full flex items-center justify-center flex-shrink-0 z-10 mb-5" style={{ backgroundColor: "#DBC7C4" }}>
+                  <span className="text-[#4C5133] text-sm md:text-xs font-medium">{step.number}</span>
                 </div>
 
                 {/* Title */}
-                <h3 className="font-serif text-white text-xl md:text-2xl font-normal mb-3">
+                <h3 className="font-serif text-white text-[22px] md:text-2xl font-normal mb-3">
                   {step.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-[#F9F5F2] text-sm md:text-lg leading-relaxed">
+                <div className="text-[#F9F5F2] text-[16px] md:text-lg leading-relaxed">
                   {step.description}
-                </p>
+                </div>
               </div>
             ))}
           </div>
         </div>
 
         {/* Button */}
-        <div className="flex justify-center mt-20 md:mt-24">
-          <Button className="!text-[#2D3643] border-0 hover:opacity-90 text-sm md:text-base px-12 py-4 font-medium tracking-wider" style={{ backgroundColor: "#DBC7C4" }}>
+        <div className="flex justify-center mt-16 md:mt-24">
+          <Button className="w-full sm:w-auto !text-[#2D3643] border-0 hover:opacity-90 text-sm md:text-base px-12 py-4 font-medium tracking-wider" style={{ backgroundColor: "#DBC7C4" }}>
             Apply for Power Moves
           </Button>
         </div>

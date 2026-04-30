@@ -42,11 +42,11 @@ const FAQ = () => {
   };
 
   return (
-    <section className="relative w-full overflow-hidden py-14  bg-[#F9F5F2]">
-      {/* Decorative Squiggle - Fixed height to prevent shifting when accordions open */}
-      <div className="absolute -left-[15%] lg:-left-[10%] top-0 w-[55%] lg:w-[50%] h-[900px] pointer-events-none z-0 overflow-hidden">
+    <section className="relative w-full overflow-hidden py-16 sm:py-20 lg:py-14 bg-[#F9F5F2]">
+      {/* Decorative Squiggle - Section clips it at top/bottom, but wrapper is visible to prevent internal clipping */}
+      <div className="absolute -left-[30%] sm:-left-[15%] lg:-left-[10%] top-0 w-[80%] sm:w-[55%] lg:w-[38%] h-full pointer-events-none z-0 overflow-visible">
         <Image
-          src="/home/soft-lines.svg"
+          src="/home/soft-lines-faq.svg"
           alt="decorative lines"
           fill
           className="object-contain object-left scale-[1.3]"
@@ -55,17 +55,17 @@ const FAQ = () => {
       </div>
 
       <div className="max-container relative z-10 w-full px-6 lg:px-12 mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between gap-16 lg:gap-8 items-start">
+        <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-8 items-start">
 
           {/* Left Side */}
           <div className="w-full lg:w-[40%]">
             <span className="text-[12px] font-medium tracking-[0.15em] text-[#1E3147] mb-4 block uppercase">FAQS</span>
 
             <div className="mb-8">
-              <h2 className="font-serif text-[48px] lg:text-[56px] text-[#1E3147] leading-[1.1] mb-4">
+              <h2 className="font-serif text-[36px] sm:text-[48px] lg:text-[56px] text-[#1E3147] leading-[1.1] mb-4">
                 Got questions?
               </h2>
-              <p className="text-[#1E3147] lg:w-[115%] text-[15px] font-light leading-relaxed ">
+              <p className="text-[#1E3147] w-full lg:w-[115%] text-[15px] font-light leading-relaxed ">
                 We&apos;re here to make biogas easy to understand. Find answers to the most common questions below.
               </p>
             </div>
@@ -91,19 +91,19 @@ const FAQ = () => {
                 >
                   <button
                     onClick={() => toggleAccordion(index)}
-                    className="w-full px-8 py-5 flex items-center justify-between text-left group"
+                    className="w-full px-6 py-4 sm:px-8 sm:py-5 flex items-center justify-between text-left group"
                   >
-                    <span className={`text-[15px] md:text-[16px] transition-colors ${openIndex === index ? "text-[#1E3147] font-medium" : "text-[#1E3147]/80 font-light"}`}>
+                    <span className={`text-[14px] sm:text-[16px] transition-colors ${openIndex === index ? "text-[#1E3147] font-medium" : "text-[#1E3147]/80 font-light"}`}>
                       {item.question}
                     </span>
-                    <span className="text-2xl text-[#1E3147]/40 group-hover:text-[#1E3147] transition-colors font-light">
+                    <span className="text-xl sm:text-2xl text-[#1E3147]/40 group-hover:text-[#1E3147] transition-colors font-light">
                       {openIndex === index ? "−" : "+"}
                     </span>
                   </button>
 
                   {openIndex === index && (
-                    <div className="px-8 pb-6">
-                      <p className="text-[#1E3147]/70 text-[14px] leading-relaxed font-light">
+                    <div className="px-6 pb-5 sm:px-8 sm:pb-6">
+                      <p className="text-[#1E3147]/70 text-[13px] sm:text-[14px] leading-relaxed font-light">
                         {item.answer}
                       </p>
                     </div>
