@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
       isScrolled ? "bg-[#0f172a]/80 backdrop-blur-md py-4 shadow-lg border-b border-white/5" : "bg-transparent py-6"
     }`}>
-      <div className="max-container flex items-center justify-between">
+      <div className="w-full px-8 md:px-16 lg:px-24 flex items-center justify-between">
         {/* Left Side: Logo + Navigation Links */}
         <div className="flex items-center space-x-12">
           {/* Logo */}
@@ -53,7 +53,11 @@ const Navbar = () => {
 
         {/* Call to Action */}
         <div className="flex-shrink-0">
-          <Button className="!bg-[#F9F5F2] !px-6 !py-2.5 text-xs tracking-widest font-semibold">Book a Call</Button>
+          <Link href="/login">
+            <Button className="!bg-[#F9F5F2] !px-6 !py-2.5 text-xs tracking-widest font-semibold text-black uppercase">
+              Book a Call
+            </Button>
+          </Link>
         </div>
       </div>
     </nav>
