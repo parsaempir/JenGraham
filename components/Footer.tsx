@@ -84,13 +84,15 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mt-20 lg:mt-40">
           <div className="flex items-center gap-3">
             <span className="text-[13px] opacity-60">Built by</span>
-            <Image
-              src="/home/big-uppetite-logo.svg"
-              alt="Big Uppetite Logo"
-              width={100}
-              height={20}
-              className="h-[20px] w-auto"
-            />
+            <a href="https://www.biguppetite.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity flex items-center">
+              <Image
+                src="/home/big-uppetite-logo.svg"
+                alt="Big Uppetite Logo"
+                width={100}
+                height={20}
+                className="h-[20px] w-auto"
+              />
+            </a>
           </div>
           <p className="text-[13px] text-[#2F223B] font-medium tracking-tight text-center md:text-left">
             © All rights reserved by <span className="font-bold opacity-100">Jen Graham.</span>

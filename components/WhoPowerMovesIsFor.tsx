@@ -32,26 +32,26 @@ const WhoPowerMovesIsFor = () => {
 
       {/* Pill Bar */}
       <div className="max-container mb-16 lg:mb-24 relative z-10 px-6 lg:px-0">
-        <div className="border border-[#2D3643] rounded-[30px] lg:rounded-full py-6 lg:py-8 px-6 md:px-16 lg:px-24 grid grid-cols-2 lg:flex lg:flex-nowrap justify-between items-center gap-6 lg:gap-6 w-full mx-auto">
+        <div className="border border-[#2D3643] rounded-[30px] lg:rounded-full py-6 lg:py-8 px-6 md:px-16 lg:px-24 grid grid-cols-2 lg:flex lg:flex-nowrap justify-between items-start lg:items-center gap-y-10 gap-x-6 lg:gap-6 w-full mx-auto">
           {/* Item 1 */}
           <div className="flex flex-col lg:flex-row items-center gap-2 lg:gap-4">
             <Image src="/The Accelerator/clock-01.svg" alt="Clock" width={32} height={32} className="w-6 lg:w-8 h-auto" />
-            <span className="text-[#2D3643] font-medium tracking-wider uppercase text-[12px] lg:text-lg">6 Months</span>
+            <span className="text-[#2D3643] font-medium tracking-wider uppercase text-[12px] lg:text-lg text-center lg:text-left">6 Months</span>
           </div>
           {/* Item 2 */}
           <div className="flex flex-col lg:flex-row items-center gap-2 lg:gap-4">
             <Image src="/The Accelerator/left-to-right-list-dash.svg" alt="List" width={32} height={32} className="w-6 lg:w-8 h-auto" />
-            <span className="text-[#2D3643] font-medium tracking-wider uppercase text-[12px] lg:text-lg">Sales Leadership</span>
+            <span className="text-[#2D3643] font-medium tracking-wider uppercase text-[12px] lg:text-lg text-center lg:text-left">Sales Leadership</span>
           </div>
           {/* Item 3 */}
           <div className="flex flex-col lg:flex-row items-center gap-2 lg:gap-4">
             <Image src="/The Accelerator/body-part-muscle.svg" alt="Muscle" width={32} height={32} className="w-6 lg:w-8 h-auto" />
-            <span className="text-[#2D3643] font-medium tracking-wider uppercase text-[12px] lg:text-lg">Energy & Strength</span>
+            <span className="text-[#2D3643] font-medium tracking-wider uppercase text-[12px] lg:text-lg text-center lg:text-left">Energy & Strength</span>
           </div>
           {/* Item 4 */}
           <div className="flex flex-col lg:flex-row items-center gap-2 lg:gap-4">
             <Image src="/The Accelerator/organic-food.svg" alt="Leaf" width={32} height={32} className="w-6 lg:w-8 h-auto" />
-            <span className="text-[#2D3643] font-medium tracking-wider uppercase text-[12px] lg:text-lg">Confidence</span>
+            <span className="text-[#2D3643] font-medium tracking-wider uppercase text-[12px] lg:text-lg text-center lg:text-left">Confidence</span>
           </div>
         </div>
       </div>
