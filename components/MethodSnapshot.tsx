@@ -7,7 +7,7 @@ const MethodSnapshot = () => {
   const items = [
     {
       title:(<>Split Between<br/> Success and Home</>) ,
-      description: (<>When you win at work, something<br/> personal feels like it's paying the<br /> price.</>)
+      description: (<>When you win at work, something<br/> personal feels like it&apos;s paying the<br /> price.</>)
     },
     {
       title: (
@@ -15,11 +15,11 @@ const MethodSnapshot = () => {
           Invisible <br /> Effort
         </>
       ),
-      description: (<>Carrying emotional and professional<br/> weight that isn't always recognized or <br/>rewarded.</>)
+      description: (<>Carrying emotional and professional<br/> weight that isn&apos;t always recognized or <br/>rewarded.</>)
     },
     {
       title:(<>Confidence That<br/> Fluctuates</>) ,
-      description:(<>When you're not at your best in every<br/> area, you start questioning your<br/> worth.</>) 
+      description:(<>When you&apos;re not at your best in every<br/> area, you start questioning your<br/> worth.</>) 
     }
   ];
 

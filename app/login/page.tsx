@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export default function Login() {
@@ -30,7 +29,7 @@ export default function Login() {
             </h1>
 
             <p className="text-[#94A3B8] text-sm md:text-base mb-10 leading-relaxed max-w-lg lg:max-w-none">
-              This is where high-performing women come to regain control of <br className="hidden lg:block" /> their time, energy, and decisions.<br className="hidden lg:block" /> Structure over chaos. Boundaries over burnout. <br className="hidden lg:block" />You don't need more motivation. You need a system.
+              This is where high-performing women come to regain control of <br className="hidden lg:block" /> their time, energy, and decisions.<br className="hidden lg:block" /> Structure over chaos. Boundaries over burnout. <br className="hidden lg:block" />You don&apos;t need more motivation. You need a system.
             </p>
           </div>
 
