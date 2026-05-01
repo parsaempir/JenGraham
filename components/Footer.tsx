@@ -10,7 +10,7 @@ const Footer = () => {
       {/* Background Graphic Initials */}
       <div className="absolute right-[-20%] lg:right-[0%] bottom-[-2%] lg:bottom-[0%] w-[150%] sm:w-[110%] lg:w-[76%] pointer-events-none z-0">
         <Image
-          src="/home/Training Carousel .svg"
+          src="/home/Training-Carousel.svg"
           alt="Jen Graham Initials"
           width={1600}
           height={1600}

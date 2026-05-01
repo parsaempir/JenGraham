@@ -8,7 +8,7 @@ export default function Login() {
       {/* Background Pattern */}
       <div className="absolute right-[35%] bottom-[-50px] pointer-events-none select-none z-0">
         <Image
-          src="/Training Carousel - in person.svg"
+          src="/Training-Carousel-in-person.svg"
           alt="Background Pattern"
           width={1800}
           height={1200}
@@ -35,7 +35,7 @@ export default function Login() {
 
           <div className="hidden lg:block absolute bottom-[-350px] right-[40%] w-full max-w-[500px] aspect-[4/5] lg:aspect-[3/4] z-0">
             <Image
-              src="/Photoroom .webp"
+              src="/Photoroom.webp"
               alt="Jen Graham"
               fill
               className="object-contain object-bottom"

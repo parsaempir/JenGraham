@@ -13,7 +13,7 @@ const WhoPowerMovesIsFor = () => {
       {/* Background SVG Carousel */}
       <div className="absolute left-[40%] top-[70%] -translate-x-1/2 -translate-y-1/2 w-[900px] lg:w-[1400px] h-[900px] lg:h-[1400px] z-0 pointer-events-none">
         <Image 
-          src="/home/Training Carousel .svg"
+          src="/home/Training-Carousel.svg"
           alt="Background pattern"
           fill
           className="object-contain"

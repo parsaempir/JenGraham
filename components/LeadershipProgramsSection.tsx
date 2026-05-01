@@ -9,7 +9,7 @@ const LeadershipProgramsSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/The Accelerator/LeadershipPrograms .webp"
+          src="/The Accelerator/LeadershipPrograms.webp"
           alt="Leadership Programs"
           fill
           className="object-cover object-center"
