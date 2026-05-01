@@ -23,7 +23,7 @@ const CalmLeadership = () => {
     <section className="bg-[#F9F5F2] py-16 sm:py-20 w-full">
       <div className="max-container">
         {/* Headline */}
-        <h2 className="font-serif text-[36px] sm:text-5xl lg:text-6xl text-[#000000] leading-[1.1] tracking-tight mb-10 lg:mb-14 max-w-2xl">
+        <h2 className="font-serif text-[2.25rem] sm:text-5xl lg:text-6xl text-[#000000] leading-[1.1] tracking-tight mb-10 lg:mb-14 max-w-2xl">
           This is what calm <br className="hidden sm:block" /> leadership looks like.
         </h2>
 

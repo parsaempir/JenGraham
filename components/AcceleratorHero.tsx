@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const AcceleratorHero = () => {
   return (
-    <section className="relative min-h-[750px] sm:min-h-[800px] lg:min-h-screen w-full flex flex-col justify-end overflow-hidden">
+    <section className="relative min-h-[46.875rem] sm:min-h-[50rem] lg:min-h-screen w-full flex flex-col justify-end overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -27,10 +27,10 @@ const AcceleratorHero = () => {
       <div className="max-container relative z-10 w-full pt-32 pb-20 md:pb-20 flex flex-col md:flex-row md:justify-between items-center md:items-end px-6 lg:px-12 mx-auto">
         {/* Left Content */}
         <div className="mb-12 md:mb-0 text-center md:text-left">
-          <h1 className="font-serif text-[44px] sm:text-[60px] md:text-7xl lg:text-[90px] font-normal text-white leading-[1.1] md:leading-[1.05] mb-6 tracking-tight">
+          <h1 className="font-serif text-[2.75rem] sm:text-[3.75rem] md:text-7xl lg:text-[5.625rem] font-normal text-white leading-[1.1] md:leading-[1.05] mb-6 tracking-tight">
             Make Power Moves
           </h1>
-          <p className="text-[17px] sm:text-xl md:text-2xl text-white font-light leading-[1.4] mb-10 max-w-[500px] mx-auto md:mx-0">
+          <p className="text-[1.0625rem] sm:text-xl md:text-2xl text-white font-light leading-[1.4] mb-10 max-w-[31.25rem] mx-auto md:mx-0">
             For high-performing women who want it all, without burning out
           </p>
           <div className="flex justify-center md:justify-start">
@@ -54,7 +54,7 @@ const AcceleratorHero = () => {
 
       {/* Mobile Scroll Down Indicator */}
       <div className="md:hidden absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 cursor-pointer z-10 animate-bounce">
-        <div className="flex items-center gap-3 text-white/80 text-[12px] font-medium whitespace-nowrap">
+        <div className="flex items-center gap-3 text-white/80 text-[0.75rem] font-medium whitespace-nowrap">
           <Image
             src="/home/arrow-down.svg"
             alt="Scroll down"

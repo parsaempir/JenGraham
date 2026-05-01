@@ -6,7 +6,7 @@ export default function Login() {
     <main className="relative min-h-screen bg-[#1E3147] flex flex-col font-sans overflow-hidden">
       <Navbar />
       {/* Background Pattern */}
-      <div className="absolute right-[35%] bottom-[-50px] pointer-events-none select-none z-0">
+      <div className="absolute right-[35%] bottom-[-3.125rem] pointer-events-none select-none z-0">
         <Image
           src="/Training-Carousel-in-person.svg"
           alt="Background Pattern"
@@ -18,12 +18,12 @@ export default function Login() {
       </div>
 
 
-      <div className="flex-1 flex flex-col lg:flex-row items-start justify-between w-full lg:min-w-[1440px] mx-auto px-6 md:px-16 lg:px-24 relative z-10 pt-28 md:pt-32 lg:pt-50 pb-12 lg:pb-0">
+      <div className="flex-1 flex flex-col lg:flex-row items-start justify-between w-full lg:min-w-[90rem] mx-auto px-6 md:px-16 lg:px-24 relative z-10 pt-28 md:pt-32 lg:pt-50 pb-12 lg:pb-0">
 
         {/* Left Section */}
-        <div className="w-full lg:w-1/2 flex flex-col items-start text-left mb-4 lg:mb-0 lg:pr-12 relative min-h-[auto] lg:min-h-[450px]">
+        <div className="w-full lg:w-1/2 flex flex-col items-start text-left mb-4 lg:mb-0 lg:pr-12 relative min-h-[auto] lg:min-h-[28.125rem]">
           <div className="relative z-10">
-            <h1 className="text-[32px] md:text-4xl lg:whitespace-nowrap lg:text-[4rem] font-serif text-white leading-[1.2] lg:leading-[1.1] mb-6 -ml-0.5 tracking-tight">
+            <h1 className="text-[2rem] md:text-4xl lg:whitespace-nowrap lg:text-[4rem] font-serif text-white leading-[1.2] lg:leading-[1.1] mb-6 -ml-0.5 tracking-tight">
               Make Power Moves.<br className="hidden lg:block" />
               <span className="italic font-light">Without burning out.</span>
             </h1>
@@ -33,7 +33,7 @@ export default function Login() {
             </p>
           </div>
 
-          <div className="hidden lg:block absolute bottom-[-350px] right-[40%] w-full max-w-[500px] aspect-[4/5] lg:aspect-[3/4] z-0">
+          <div className="hidden lg:block absolute bottom-[-21.875rem] right-[40%] w-full max-w-[31.25rem] aspect-[4/5] lg:aspect-[3/4] z-0">
             <Image
               src="/Photoroom.webp"
               alt="Jen Graham"
@@ -46,7 +46,7 @@ export default function Login() {
 
         {/* Right Section - Sign In Card */}
         <div className="w-full lg:w-[45%] flex justify-center lg:justify-end relative z-20">
-          <div className="bg-white rounded-[1.5rem] p-7 md:p-8 lg:p-10 w-full max-w-[500px] shadow-[0_20px_60px_rgba(0,0,0,0.15)]">
+          <div className="bg-white rounded-[1.5rem] p-7 md:p-8 lg:p-10 w-full max-w-[31.25rem] shadow-[0_1.25rem_3.75rem_rgba(0,0,0,0.15)]">
             <div className="mb-6">
               <span className="text-[#4C5133] font-medium text-xs mb-1 block">Sign in</span>
               <h2 className="text-2xl md:text-3xl font-semibold text-black tracking-tight leading-tight">Welcome Back</h2>

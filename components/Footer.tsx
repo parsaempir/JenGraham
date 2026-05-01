@@ -28,16 +28,16 @@ const Footer = () => {
               alt="Jen Graham Logo"
               width={180}
               height={60}
-              className="w-[180px] h-auto"
+              className="w-45 h-auto"
             />
-            <p className="text-[15px] leading-relaxed max-w-[280px] md:max-w-none lg:max-w-[280px]">
+            <p className="text-[0.9375rem] leading-relaxed max-w-[17.5rem] md:max-w-none lg:max-w-[17.5rem]">
               Systems, boundaries, and leadership frameworks for high-performing women who are done running on empty.
             </p>
           </div>
 
           {/* Column 2: Pages */}
           <div className="flex flex-col gap-6 items-center md:items-start">
-            <h4 className="text-[13px] font-bold tracking-[0.2em] uppercase opacity-50">Pages</h4>
+            <h4 className="text-[0.8125rem] font-bold tracking-[0.2em] uppercase opacity-50">Pages</h4>
             <nav className="flex flex-col gap-4 items-center md:items-start">
               <Link href="/" className="hover:opacity-60 transition-opacity">Home page</Link>
               <Link href="/services" className="hover:opacity-60 transition-opacity">Services</Link>
@@ -48,7 +48,7 @@ const Footer = () => {
 
           {/* Column 3: Account */}
           <div className="flex flex-col gap-6 items-center md:items-start">
-            <h4 className="text-[13px] font-bold tracking-[0.2em] uppercase opacity-50">Account</h4>
+            <h4 className="text-[0.8125rem] font-bold tracking-[0.2em] uppercase opacity-50">Account</h4>
             <nav className="flex flex-col gap-4 items-center md:items-start">
               <Link href="/login" className="hover:opacity-60 transition-opacity">Log in</Link>
               <Link href="/profile" className="hover:opacity-60 transition-opacity">My Profile</Link>
@@ -57,7 +57,7 @@ const Footer = () => {
 
           {/* Column 4: Social Media */}
           <div className="flex flex-col gap-6 items-center md:items-start">
-            <h4 className="text-[13px] font-bold tracking-[0.2em] uppercase opacity-50">Social Media</h4>
+            <h4 className="text-[0.8125rem] font-bold tracking-[0.2em] uppercase opacity-50">Social Media</h4>
             <div className="flex gap-4">
               {/* Facebook */}
               <Link href="#" className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:scale-110 transition-all overflow-hidden p-2.5">
@@ -83,18 +83,18 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mt-20 lg:mt-40">
           <div className="flex items-center gap-3">
-            <span className="text-[13px] opacity-60">Built by</span>
+            <span className="text-[0.8125rem] opacity-60">Built by</span>
             <a href="https://www.biguppetite.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity flex items-center">
               <Image
                 src="/home/big-uppetite-logo.svg"
                 alt="Big Uppetite Logo"
                 width={100}
                 height={20}
-                className="h-[20px] w-auto"
+                className="h-5 w-auto"
               />
             </a>
           </div>
-          <p className="text-[13px] text-[#2F223B] font-medium tracking-tight text-center md:text-left">
+          <p className="text-[0.8125rem] text-[#2F223B] font-medium tracking-tight text-center md:text-left">
             © All rights reserved by <span className="font-bold opacity-100">Jen Graham.</span>
           </p>
         </div>

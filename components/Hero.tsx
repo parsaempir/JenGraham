@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[600px] sm:min-h-[800px] lg:min-h-[110vh] w-full flex flex-col justify-center">
+    <section className="relative min-h-[37.5rem] sm:min-h-[50rem] lg:min-h-[110vh] w-full flex flex-col justify-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -26,7 +26,7 @@ const Hero = () => {
           </h1>
 
           {/* Subtext */}
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-[#F9F5F2] font-light leading-[1.5] mb-10 sm:mb-14 max-w-[90%] sm:max-w-[760px]">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-[#F9F5F2] font-light leading-[1.5] mb-10 sm:mb-14 max-w-[90%] sm:max-w-[47.5rem]">
             A six-month private accelerator for high-performing female sales leaders who want promotion, power, and personal peace, without burnout or guilt.
           </p>
 
@@ -43,7 +43,7 @@ const Hero = () => {
             alt="Scroll down"
             width={18}
             height={18}
-            className="sm:w-[20px] sm:h-[20px]"
+            className="sm:w-5 sm:h-5"
           />
           <span>Scroll for more information</span>
         </div>

@@ -17,11 +17,11 @@ const ProblemReframe = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-start">
 
           {/* Left Content */}
-          <div className="flex flex-col max-w-[600px]">
-            <h2 className="font-serif text-[32px] sm:text-4xl md:text-5xl lg:text-6xl text-[#000000] leading-tight mb-0">
+          <div className="flex flex-col max-w-[37.5rem]">
+            <h2 className="font-serif text-[2rem] sm:text-4xl md:text-5xl lg:text-6xl text-[#000000] leading-tight mb-0">
               &ldquo;You&rsquo;re Not Broken&rdquo;
             </h2>
-            <h3 className="font-serif text-[32px] sm:text-4xl md:text-5xl lg:text-6xl text-[#000000] leading-tight mb-8">
+            <h3 className="font-serif text-[2rem] sm:text-4xl md:text-5xl lg:text-6xl text-[#000000] leading-tight mb-8">
               Problem Reframe
             </h3>
 
@@ -39,7 +39,7 @@ const ProblemReframe = () => {
           </div>
 
           {/* Right Content / Quote */}
-          <div className="relative flex flex-col justify-center lg:justify-end items-center lg:items-end min-h-[200px] sm:min-h-[300px] lg:min-h-[400px]">
+          <div className="relative flex flex-col justify-center lg:justify-end items-center lg:items-end min-h-[12.5rem] sm:min-h-[18.75rem] lg:min-h-[25rem]">
             <div className="text-center lg:text-right w-full lg:pr-0">
               <p className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-[#000000] leading-[1.1] tracking-tight">
                 Success without sacrifice is <br className="hidden sm:block" />

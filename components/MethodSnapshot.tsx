@@ -41,7 +41,7 @@ const MethodSnapshot = () => {
                   <h3 className="font-serif text-2xl text-[#F9F5F2] leading-tight">
                     {item.title}
                   </h3>
-                  <p className="text-[#F9F5F2] text-sm md:text-[13px] font-light leading-relaxed max-w-[260px] sm:max-w-none">
+                  <p className="text-[#F9F5F2] text-sm md:text-[0.8125rem] font-light leading-relaxed max-w-[16.25rem] sm:max-w-none">
                     {item.description}
                   </p>
                 </div>
@@ -64,7 +64,7 @@ const MethodSnapshot = () => {
 
           {/* Right Side: Headline */}
           <div className="w-full lg:w-auto">
-            <h2 className="font-serif text-[36px] sm:text-5xl lg:text-6xl text-[#F9F5F2] leading-[1.1] tracking-tight">
+            <h2 className="font-serif text-[2.25rem] sm:text-5xl lg:text-6xl text-[#F9F5F2] leading-[1.1] tracking-tight">
               Method Snapshot, <br className="hidden sm:block" /> What&apos;s Different Here
             </h2>
           </div>

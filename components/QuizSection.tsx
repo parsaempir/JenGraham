@@ -11,7 +11,7 @@ const QuizSection = () => {
           
           {/* Left Side: Images - Hidden on mobile/tablet */}
           <div className="w-full lg:w-[70%] relative hidden lg:flex items-end justify-center lg:justify-start">
-            <div className="relative w-full max-w-[1100px] flex items-end ml-0 lg:-ml-48">
+            <div className="relative w-full max-w-[68.75rem] flex items-end ml-0 lg:-ml-48">
               {/* Woman Image - Now on top */}
               <div className="relative z-20 w-[85%] -mb-1">
                 <Image
@@ -37,39 +37,39 @@ const QuizSection = () => {
           </div>
 
           {/* Right Side: Form */}
-          <div className="w-full lg:w-[35%] max-w-[480px] pb-12 lg:pb-20">
-            <h2 className="font-serif text-[32px] sm:text-[40px] lg:text-[50px] text-[#1E3147] leading-[1.1] mb-8 lg:mb-10 text-center lg:text-left">
+          <div className="w-full lg:w-[35%] max-w-[30rem] pb-12 lg:pb-20">
+            <h2 className="font-serif text-[2rem] sm:text-[2.5rem] lg:text-[3.125rem] text-[#1E3147] leading-[1.1] mb-8 lg:mb-10 text-center lg:text-left">
               Do your boundaries match your goals?
             </h2>
             
             <form className="space-y-3">
               <div className="w-full px-5 py-1.5 rounded-xl border border-[#1E3147]/10 bg-white transition-all focus-within:border-[#1E3147]/30">
-                <label htmlFor="name" className="block text-[10px] text-[#1E3147]/40 font-medium mb-0">
+                <label htmlFor="name" className="block text-[0.625rem] text-[#1E3147]/40 font-medium mb-0">
                   Name
                 </label>
                 <input
                   type="text"
                   id="name"
                   placeholder="Enter your name"
-                  className="w-full focus:outline-none text-[14px] text-[#1E3147] placeholder:text-[#1E3147]/15 bg-transparent py-0.5"
+                  className="w-full focus:outline-none text-[0.875rem] text-[#1E3147] placeholder:text-[#1E3147]/15 bg-transparent py-0.5"
                 />
               </div>
 
               <div className="w-full px-5 py-1.5 rounded-xl border border-[#1E3147]/10 bg-white transition-all focus-within:border-[#1E3147]/30">
-                <label htmlFor="email" className="block text-[10px] text-[#1E3147]/40 font-medium mb-0">
+                <label htmlFor="email" className="block text-[0.625rem] text-[#1E3147]/40 font-medium mb-0">
                   Email
                 </label>
                 <input
                   type="email"
                   id="email"
                   placeholder="Enter your email"
-                  className="w-full focus:outline-none text-[14px] text-[#1E3147] placeholder:text-[#1E3147]/15 bg-transparent py-0.5"
+                  className="w-full focus:outline-none text-[0.875rem] text-[#1E3147] placeholder:text-[#1E3147]/15 bg-transparent py-0.5"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-[#1E3147] text-white py-3.5 rounded-none text-[14px] font-medium tracking-[0.05em] hover:bg-[#1E3147]/95 transition-all mt-2"
+                className="w-full bg-[#1E3147] text-white py-3.5 rounded-none text-[0.875rem] font-medium tracking-[0.05em] hover:bg-[#1E3147]/95 transition-all mt-2"
               >
                 Take Quiz
               </button>

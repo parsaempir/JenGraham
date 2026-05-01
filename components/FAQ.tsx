@@ -59,23 +59,23 @@ const FAQ = () => {
 
           {/* Left Side */}
           <div className="w-full lg:w-[40%]">
-            <span className="text-[12px] font-medium tracking-[0.15em] text-[#1E3147] mb-4 block uppercase">FAQS</span>
+            <span className="text-[0.75rem] font-medium tracking-[0.15em] text-[#1E3147] mb-4 block uppercase">FAQS</span>
 
             <div className="mb-8">
-              <h2 className="font-serif text-[36px] sm:text-[48px] lg:text-[56px] text-[#1E3147] leading-[1.1] mb-4">
+              <h2 className="font-serif text-[2.25rem] sm:text-[3rem] lg:text-[3.5rem] text-[#1E3147] leading-[1.1] mb-4">
                 Got questions?
               </h2>
-              <p className="text-[#1E3147] w-full lg:w-[115%] text-[15px] font-light leading-relaxed ">
+              <p className="text-[#1E3147] w-full lg:w-[115%] text-[0.9375rem] font-light leading-relaxed ">
                 We&apos;re here to make biogas easy to understand. Find answers to the most common questions below.
               </p>
             </div>
 
             {/* Horizontal Line */}
-            <div className="w-full lg:w-[115%] h-[1px] bg-[#989E7B]/40 mb-10" />
+            <div className="w-full lg:w-[115%] h-[0.0625rem] bg-[#989E7B]/40 mb-10" />
 
             <div className="">
-              <h3 className="text-[20px] font-light text-[#1E3147] mb-5 tracking-tight">Still got questions?</h3>
-              <button className="bg-[#DBC7C4] text-[#1E3147] px-6 py-2 rounded-full text-[11px] font-bold tracking-[0.15em] hover:bg-white transition-all">
+              <h3 className="text-[1.25rem] font-light text-[#1E3147] mb-5 tracking-tight">Still got questions?</h3>
+              <button className="bg-[#DBC7C4] text-[#1E3147] px-6 py-2 rounded-full text-[0.6875rem] font-bold tracking-[0.15em] hover:bg-white transition-all">
                 HEY@DOMAIN.COM
               </button>
             </div>
@@ -93,7 +93,7 @@ const FAQ = () => {
                     onClick={() => toggleAccordion(index)}
                     className="w-full px-6 py-4 sm:px-8 sm:py-5 flex items-center justify-between text-left group"
                   >
-                    <span className={`text-[14px] sm:text-[16px] transition-colors ${openIndex === index ? "text-[#1E3147] font-medium" : "text-[#1E3147]/80 font-light"}`}>
+                    <span className={`text-[0.875rem] sm:text-[1rem] transition-colors ${openIndex === index ? "text-[#1E3147] font-medium" : "text-[#1E3147]/80 font-light"}`}>
                       {item.question}
                     </span>
                     <span className="text-xl sm:text-2xl text-[#1E3147]/40 group-hover:text-[#1E3147] transition-colors font-light">
@@ -103,7 +103,7 @@ const FAQ = () => {
 
                   {openIndex === index && (
                     <div className="px-6 pb-5 sm:px-8 sm:pb-6">
-                      <p className="text-[#1E3147]/70 text-[13px] sm:text-[14px] leading-relaxed font-light">
+                      <p className="text-[#1E3147]/70 text-[0.8125rem] sm:text-[0.875rem] leading-relaxed font-light">
                         {item.answer}
                       </p>
                     </div>

@@ -54,7 +54,7 @@ const HowItWorks = () => {
         {/* Heading */}
         <h2
           className="font-serif text-[#F9F5F2] font-normal leading-[1.2] lg:leading-[1.1] mb-16 md:mb-28 text-center md:text-left"
-          style={{ fontSize: "clamp(30px, 8vw, 58px)" }}
+          style={{ fontSize: "clamp(1.875rem, 8vw, 3.625rem)" }}
         >
           This isn&apos;t about proving yourself through exhaustion.
           <br className="hidden sm:block" />
@@ -68,15 +68,15 @@ const HowItWorks = () => {
 
           {/* Single continuous line — positioned at center of the circles */}
           <div
-            className="hidden md:block absolute h-[2px] z-0"
-            style={{ top: "62px", left: "calc(12.5% - 28px)", right: "calc(12.5% - 28px)", backgroundColor: "#DBC7C4" }}
+            className="hidden md:block absolute h-[0.125rem] z-0"
+            style={{ top: "3.875rem", left: "calc(12.5% - 1.75rem)", right: "calc(12.5% - 1.75rem)", backgroundColor: "#DBC7C4" }}
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 sm:gap-16 md:gap-0 relative z-10">
             {steps.map((step) => (
               <div key={step.number} className="flex flex-col items-center text-center px-4">
 
-                {/* Icon — 28px tall */}
+                {/* Icon — 1.75rem tall */}
                 <div className="w-8 h-8 md:w-7 md:h-7 mb-5 relative opacity-75 flex-shrink-0">
                   <Image
                     src={step.icon}
@@ -92,12 +92,12 @@ const HowItWorks = () => {
                 </div>
 
                 {/* Title */}
-                <h3 className="font-serif text-white text-[22px] md:text-2xl font-normal mb-3">
+                <h3 className="font-serif text-white text-[1.375rem] md:text-2xl font-normal mb-3">
                   {step.title}
                 </h3>
 
                 {/* Description */}
-                <div className="text-[#F9F5F2] text-[16px] md:text-lg leading-relaxed">
+                <div className="text-[#F9F5F2] text-[1rem] md:text-lg leading-relaxed">
                   {step.description}
                 </div>
               </div>

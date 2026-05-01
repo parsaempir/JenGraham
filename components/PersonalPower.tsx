@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const PersonalPower = () => {
   return (
-    <section className="relative w-full min-h-[450px] sm:min-h-[520px] flex items-center bg-[#1E3147] overflow-hidden">
+    <section className="relative w-full min-h-[28.125rem] sm:min-h-[32.5rem] flex items-center bg-[#1E3147] overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image

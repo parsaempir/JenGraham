@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const LeadershipProgramsSection = () => {
   return (
-    <section className="relative w-full overflow-hidden" style={{ height: "clamp(500px, 70vw, 860px)" }}>
+    <section className="relative w-full overflow-hidden" style={{ height: "clamp(31.25rem, 70vw, 53.75rem)" }}>
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -32,14 +32,14 @@ const LeadershipProgramsSection = () => {
           <div>
             <h2
               className="font-serif text-white font-normal leading-[1.2] lg:leading-[1.1] mb-6 md:mb-6"
-              style={{ fontSize: "clamp(32px, 8vw, 52px)" }}
+              style={{ fontSize: "clamp(2rem, 8vw, 3.25rem)" }}
             >
               Most leadership programs<br className="hidden sm:block" /> tell you to push harder.
             </h2>
-            <p className="text-white/90 text-[15px] md:text-base leading-relaxed mb-1">
+            <p className="text-white/90 text-[0.9375rem] md:text-base leading-relaxed mb-1">
               More visibility. More effort. More sacrifice.
             </p>
-            <p className="text-white/90 text-[15px] md:text-base leading-relaxed">
+            <p className="text-white/90 text-[0.9375rem] md:text-base leading-relaxed">
               Make Power Moves is different.
             </p>
           </div>

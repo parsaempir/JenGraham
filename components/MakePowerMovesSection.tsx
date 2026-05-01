@@ -6,13 +6,13 @@ import Button from "./Button";
 
 const MakePowerMovesSection = () => {
   return (
-    <section className="relative w-full bg-[#4C5133] overflow-hidden min-h-[500px] py-16 md:py-15 flex items-center">
+    <section className="relative w-full bg-[#4C5133] overflow-hidden min-h-[31.25rem] py-16 md:py-15 flex items-center">
       <div className="max-container relative z-20 w-full px-6 md:px-0 mx-auto">
         {/* Text Content */}
         <div className="w-full text-center md:text-left">
           <h2 
             className="font-serif text-[#F9F5F2] font-normal leading-[1.1] md:leading-[1.05] mb-8"
-            style={{ fontSize: "clamp(32px, 5.5vw, 84px)" }}
+            style={{ fontSize: "clamp(2rem, 5.5vw, 5.25rem)" }}
           >
             You can keep pushing.
             <br className="hidden sm:block" />

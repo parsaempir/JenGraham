@@ -57,7 +57,7 @@ const Navbar = () => {
                 alt="Jen Graham Logo"
                 width={180}
                 height={40}
-                className="h-auto w-[140px] md:w-[160px] lg:w-[180px]"
+                className="h-auto w-35 md:w-40 lg:w-45"
                 priority
               />
             </Link>
@@ -103,7 +103,7 @@ const Navbar = () => {
         <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={closeMenu} />
         
         {/* Menu Panel */}
-        <div className={`absolute top-0 right-0 h-full w-[80%] max-w-[320px] bg-[#0A1122] shadow-2xl transition-transform duration-500 ease-out flex flex-col ${
+        <div className={`absolute top-0 right-0 h-full w-[80%] max-w-[20rem] bg-[#0A1122] shadow-2xl transition-transform duration-500 ease-out flex flex-col ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}>
           <div className="flex flex-col pt-32 px-10 space-y-8">
