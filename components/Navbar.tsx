@@ -35,10 +35,10 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "The Accelerator", href: "/accelerator" },
-    { name: "About Jen", href: "/about" },
-    { name: "Client Stories", href: "/stories" },
-    { name: "Faq", href: "/faq" },
-    { name: "Contact", href: "/contact" },
+    { name: "About Jen", href: "#" },
+    { name: "Client Stories", href: "#" },
+    { name: "Faq", href: "#" },
+    { name: "Contact", href: "#" },
   ];
 
   return (

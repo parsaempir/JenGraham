@@ -40,9 +40,9 @@ const Footer = () => {
             <h4 className="text-[0.8125rem] font-bold tracking-[0.2em] uppercase opacity-50">Pages</h4>
             <nav className="flex flex-col gap-4 items-center md:items-start">
               <Link href="/" className="hover:opacity-60 transition-opacity">Home page</Link>
-              <Link href="/services" className="hover:opacity-60 transition-opacity">Services</Link>
-              <Link href="/faq" className="hover:opacity-60 transition-opacity">FAQ</Link>
-              <Link href="/contact" className="hover:opacity-60 transition-opacity">Contact</Link>
+              <Link href="#" className="hover:opacity-60 transition-opacity">Services</Link>
+              <Link href="#" className="hover:opacity-60 transition-opacity">FAQ</Link>
+              <Link href="#" className="hover:opacity-60 transition-opacity">Contact</Link>
             </nav>
           </div>
 
@@ -51,7 +51,7 @@ const Footer = () => {
             <h4 className="text-[0.8125rem] font-bold tracking-[0.2em] uppercase opacity-50">Account</h4>
             <nav className="flex flex-col gap-4 items-center md:items-start">
               <Link href="/login" className="hover:opacity-60 transition-opacity">Log in</Link>
-              <Link href="/profile" className="hover:opacity-60 transition-opacity">My Profile</Link>
+              <Link href="#" className="hover:opacity-60 transition-opacity">My Profile</Link>
             </nav>
           </div>
 
